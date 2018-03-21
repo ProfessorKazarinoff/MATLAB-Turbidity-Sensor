@@ -42,8 +42,8 @@ clc;
 
 %% ThingSpeak.com Parameters
 
-ThingSpeak_channel = 435269; %% Unique ThingSpeak Channel (Integer)
-ThingSpeak_API_write_key = 'G8ZSAVUN0EN9H1W7';  %% Unique ThingSpeak API Write Key (String)
+ThingSpeak_channel = XXXXXX; %% Unique ThingSpeak Channel (Integer)
+ThingSpeak_API_write_key = 'XXXXXXXXXXXXXX';  %% Unique ThingSpeak API Write Key (String)
 
 %% Collect serial data, Live plot data points
 bbb = 0;
