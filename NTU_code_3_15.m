@@ -51,7 +51,7 @@ turb_mean = [];
 for i=1:length(x)
         data = fscanf(a, '%s');             % Reads the data from the arduino code
         data = str2num(data);               % Converts the data to a number from a string
-        data = 336.48 * data^2 - 3250 * data + 7727.8;
+        data = 336.48 * data^2 - 3250 * data + 7727.8;
         % Converts to NTU using equation developed in calibration & testing
         % This can be changed according to part/sensor used
         saved_data(end+1) = data;           % Logs the data for all the points
