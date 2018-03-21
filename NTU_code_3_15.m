@@ -81,4 +81,4 @@ end
 
 fclose(a);      % Closes the serial port
 delete(a)       % Deletes the serial port
-clear a;        % Clears the serial port 
+clear a;        % Clears the serial port
