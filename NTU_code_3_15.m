@@ -1,9 +1,12 @@
 %% Arduino Group Project: Read Serial Data from Arduino & Upload to ThingSpeak
+
 % Revised by: Portland Community College Students in ENGR114 Winter 2018
+
 % Revised on: 3/15/18
-% Description: Reads serial data and plots in real time. This code collects
-%              data from Arduino for the turbidity level read by a sensor.
-%              User selects duration of live data plot
+% Description: Reads serial data and plots in real time. 
+% This code collects data from Arduino for the turbidity level read by a sensor.
+
+% User selects duration of live data plot
 %%
 clc, clear all, close all;
 
